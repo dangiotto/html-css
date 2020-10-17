@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas, Áudio e Vídeo</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Exemplos a seguir:</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/game-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/game-m.jpg" type="image/jpg">
+        <img src="imagens/game-g.jpg" alt="A imagem flexível funciona">
+    </picture>
+    <h1>Arquivos de Áudio</h1>
+    <p>Exemplo:</p>
+    <audio preload="metadata" controls>
+        <source src="áudio/guanacast-33.mp3" type="audio/mpeg">
+        <source src="áudio/guanacast-33ogg.ogg" type="audio/ogg">
+        <p>Seu navegador não suporta áudio <a href="áudio/guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpeg"></a> </p>
+    </audio>
+    <h1>Arquivos de Vídeo</h1>
+    <p>Exemplo abaixo:</p>
+    <video width="300" height="215" poster="imagens/okal-eltocat-thumb.jpg" controls>
+        <source src="vídeos/workout-dani.mp4" type="video/mp4">
+        <p>Infelizmente seu navegador não conseguiu carregar o vídeo.</p>
+    </video>
+    <dl></dl>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vz-7jmdlqxw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

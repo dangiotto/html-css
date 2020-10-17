@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf');
+   }
+fonte-externa {
+    font-family: idroid;
+}   
+
+
+.menu {
+    text-align: left;
+    font-size: 12pt;
+}
+
+header#sub {
+    font-size: 8pt;
+    font-style: normal;
+}
+
+header {
+    background-image: linear-gradient(to bottom, green, rgb(115, 199, 115));
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50pt;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20pt;
+}
+
+main {
+    width: 600pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
+    background-color: whitesmoke;
+    box-shadow: 3pt 3pt 4pt black;
+    }
+
+
+h1#titulo-principal {
+    width: 550pt;
+    margin: auto;
+    font-family: idroid;
+    font-size: 24pt;
+    text-align: left;
+    color: green;
+    }
+
+.texto {
+    text-align: initial justify;
+}
+
+.sub-titulo {
+    width: 550pt;
+    margin: auto;
+    font-family: idroid;
+    font-size: 20pt;
+    background-image: linear-gradient(to right, rgb(107, 179, 107), white);
+    text-align: left;
+}
+
+.texto {
+    width: 550pt;
+    margin: auto;
+    text-indent: 40px;
+    font-size: 14pt;
+    text-align: justify;
+}
+
+body {
+    background-color: rgb(98, 231, 176);
+}
+
+aside {
+    background-color: darkgreen;
+    width: 600pt;
+    padding-top: 40pt;
+    padding-bottom: 40pt;
+    margin: auto;
+}
+
+section#secaofim {
+    width: 580pt;
+    background-color: rgb(31, 235, 201);
+    margin: auto;
+    border-radius: 10pt;
+}
+
+h2#tsecaofim {
+    background-color: green;
+    color: white;
+    text-align: left;
+    font-size: 14pt;
+    border-radius: 10pt 10pt 0pt 0pt;
+    padding: 5pt;
+}
+
+footer {
+    background-color: green;
+    height: 13pt;
+    color: white;
+    font-size: 8pt;
+}
+
